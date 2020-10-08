@@ -4,11 +4,8 @@ import { Text, View, StyleSheet, Platform, AsyncStorage } from 'react-native';
 import Parse from 'parse/react-native.js';
 import AppNavigator from './navigation/AppNavigator';
 import CheckoutScreen from './screens/CheckoutScreen';
-// import keys from './constants/keys';
 
-var Parse = require('parse/react-native.js');
 Parse.setAsyncStorage(AsyncStorage);
-// Parse.initialize
 
 export default class App extends React.component {
   render() {
